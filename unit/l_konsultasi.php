@@ -162,9 +162,9 @@ ob_start();
 				<td style="font-size: 14px; width: 90%;" align="center;"><b>LAPORAN APLIKASI</b></td>
 			
 				</tr>
-		<tr><td style="font-size: 14px; width: 90%;" align="center;"><b>Sistem Pakar Diagnosa Penyakit Hati Menggunkan Metode Certainty </b></td></tr>
+		<tr><td style="font-size: 14px; width: 90%;" align="center;"><b>Sistem Pakar Diagnosa Penyakit Mentimun Menggunkan Metode Certainty </b></td></tr>
 			
-			<tr><td style="font-size: 10px; width: 92%;" align="center;">NAILIANA 310115022830</td></tr>
+			<tr><td style="font-size: 10px; width: 92%;" align="center;">Name:</td></tr>
 		</table>
 		<hr>
 		
@@ -187,7 +187,7 @@ ob_start();
 			</thead>
 		  <?php
 		 $no=1;
-         $mysqli= mysqli_connect("localhost","u8110790_db_hati","metalbest149","u8110790_db_hati");
+         $mysqli= mysqli_connect("localhost","root","","db_penyakit");
    
         $qupdate = "SELECT * FROM t_gejala WHERE kode_gejala IN ($sql)";
         $rupdate = mysqli_query($mysqli, $qupdate);
@@ -218,7 +218,7 @@ ob_start();
 <h5>Hasil Konsultasi:</h5>
 
 <table   style="font-size: 20px; border-collapse: collapse; width: 100%;">
-		<tr><td style="font-size: 14px; width: 90%;" ><b>Jenis Penyakit yang diderita adalah : <?php echo $ddatagrid['nm_penyakit']; ?>/ <?php echo "".round($daftar_cf[0], 2)."% "?>(<?php echo $daftar_cf[0]; ?>)</b></td></tr>
+		<tr><td style="font-size: 14px; width: 90%;" ><b>Jenis Penyakit yang terserang adalah : <?php echo $ddatagrid['nm_penyakit']; ?>/ <?php echo "".round($daftar_cf[0], 2)."% "?>(<?php echo $daftar_cf[0]; ?>)</b></td></tr>
 </table>
 <br>
 <table border="1"  style="font-size: 16px; border-collapse: collapse; width: 100%;">
@@ -226,7 +226,7 @@ ob_start();
 </table>
 <br>
 <table border="1"  style="font-size: 16px; border-collapse: collapse; width: 100%;">
-		<tr><td style="font-size: 10px; width: 92%;" > Untuk penanganan lebih lanjut disarankan untuk kerumah sakit atau mengunjungi dokter spesialis penyakit terdekat.</td></tr>
+		<tr><td style="font-size: 10px; width: 92%;" > Untuk penanganan lebih lanjut disarankan untuk ke pakar atau ahli penyakit mentimun terdekat.</td></tr>
 </table>
 
 

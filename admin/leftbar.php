@@ -59,7 +59,7 @@
     </li>
 
     <!-- Brand -->
-    <li  class="hover col-sm-2 "<?php if ($page=='l_penyakit' or $page=='l_gejala' or $page=='l_dbp') {echo $open;}?>>
+    <!-- <li  class="hover col-sm-2 "<?php if ($page=='l_penyakit' or $page=='l_gejala' or $page=='l_dbp') {echo $open;}?>>
       <a href="#" class="dropdown-toggle center">
         <span class="menu-text"> Laporan </span>
         <b class="arrow fa fa-angle-down"></b>
@@ -80,7 +80,7 @@
           <b class="arrow"></b>
         </li>
       </ul>
-    </li>
+    </li> -->
 
     
     <!-- Use -->

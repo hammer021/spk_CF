@@ -22,7 +22,7 @@
                 </button>
 
             <div class="navbar-header pull-left">
-                <a href="adminmainapp.php?unit=dashboard" class="navbar-brand"><small>Sistem Pakar Diagnosa Penyakit Hati Menggunkan Metode Certainty </small></a>
+                <a href="adminmainapp.php?unit=dashboard" class="navbar-brand"><small>Sistem Pakar Diagnosa Penyakit Mentimun Menggunkan Metode Certainty </small></a>
             </div>
 
             <div class="navbar-buttons navbar-header pull-right" role="navigation">

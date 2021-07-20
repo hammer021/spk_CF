@@ -49,7 +49,7 @@ include("leftbar.php");
 				   												<div class="widget-header">
 													<h5 class="widget-title bigger lighter">
 														<i class=""></i>
-														Silahkan pilih Gejala yang anda alami
+														Silahkan pilih Gejala yang di alami
 													</h5>
 
 											</div>
@@ -521,7 +521,7 @@ include("leftbar.php");
 											
 											<div class="page-header"></div>
 											<h4>Hasil Konsultasi</h4>
-											<h4><small> Jenis Penyakit diderita adalah :</small>
+											<h4><small> Jenis Penyakit yang terserang adalah :</small>
 											<?php echo $ddatagrid['nm_penyakit']; ?> / <?php echo  "".round($daftar_cf[0], 2)."% "?>(<?php echo $daftar_cf[0]; ?>)</h4>
 													
 												<div class="widget-body">
@@ -532,7 +532,7 @@ include("leftbar.php");
 															Penanganan Sementara : <?php echo $ddatagrid['penanganan']; ?>
 														</p>
 														<p class="alert alert-danger">
-															Untuk penanganan lebih lanjut disarankan untuk kerumah sakit atau mengunjungi dokter spesialis penyakit terdekat.
+															Untuk penanganan lebih lanjut disarankan untuk ke pakar atau ahli penyakit mentimun terdekat.
 														</p>
 													</div>
 												</div>
